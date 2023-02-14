@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color:white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    position: sticky;
+    top:0px;
+    
+
+}
+
+main{
+    background-image: url("./vigan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.navleft{
+    /* letter-spacing: 3px; */
+    padding: 14px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:active{
+    color: grey;
+}
+
+a:visited{
+    color:black;
+}
+ul{
+   
+    display:flex;
+    list-style-type: none;
+}
+
+ul li{
+    letter-spacing: 5px;
+    position: relative;
+    top: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    
+}
+
+#menuicon{
+    margin-right: 20px;
+}
+
+#space{
+    letter-spacing: 5px;
+}
+
+a:hover{
+    background-color:black; 
+    color:white;
+    border-radius: 5px;
+}
+
+.cat1{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 600px;
+    width: 500px;
+} 
+
+.cat2{
+    background-color: white;
+    margin-top: 100px;
+    width: 800px;
+    height: 600px;
+} 
+#cat3{
+    margin-left: 100px;
+    padding-left: 50px;
+}
+
+#cat4{
+    margin-left: 0;
+
+}
+
+.cat5{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 600px;
+    width: 600px;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+
+}
+
+h2{
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(70, 69, 69);
+}
+
+h4{
+    color: grey;
+}
+
+p{
+    /* margin-top: 50px; */
+    text-align: justify;
+    padding: 10px 100px 100px 100px;
+    line-height: 2;
+}
+img{
+    width: 500px;
+    height: 600px;
+}
+
+.container{
+    display: flex;
+}
+
+#contactp{
+    text-align: center;
+    padding:0px;
+}
+
+form{
+    border: 1px solid black;
+    
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid rgb(62, 61, 61);
+    outline: none;
+}
+
+
+
+
+
+
+
+
